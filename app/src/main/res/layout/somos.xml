@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="firebase2.campitos.org.geer.MainActivity"
+    android:id="@+id/layout_somos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Misión"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="En Grupo Educativo Editorial Rado ofrecemos conocimiento traducido en libros técnicos, científicos, y escolares con contenidos de vanguardia que cubran los lineamientos de los procesos de enseñanza-aprendizaje establecidos por los modelos educativos por competencias.\n
+Estamos comprometidos en dar la mejor calidad humana y profesional, teniendo como fundamentos principales la comunicación personalizada con nuestros clientes."
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:text="Visión"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Ser la empresa editorial mexicana más importante a nivel medio superior; aportando materiales didácticos innovadores que faciliten el aprendizaje de una manera sencilla y se adapten a los requerimientos tecnológicos actuales y futuros.\n
+
+ESTAMOS PARA SERVIRTE!
+"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

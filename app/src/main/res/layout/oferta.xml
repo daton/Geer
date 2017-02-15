@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="firebase2.campitos.org.geer.MainActivity"
+    android:id="@+id/layout_oferta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Oferta Educativa"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Oferta educativa para UNAM, IPN, UAM y UACM"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</ScrollView>
